@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.nav-items{
+    width: 100%;
+    display: flex;
+    height: 3.5rem;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+nav{
+    width: 100%;
+    background-color: white; 
+    position: fixed;
+    top: 0px;
+}
+nav .logo img{
+    height: 36px;
+    width: 132px;
+    margin-left: -5rem;
+    cursor: pointer;
+}
+nav .nav-button{
+    display: flex;
+    margin-right: -5rem;
+    gap: 1.5rem;
+    font-weight: 700;
+    color: rgb(108, 108, 108);
+    font-size: 0.9rem;
+}
+nav .nav-button p:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.heading{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 102px;
+    background-color: white;
+    color: rgb(59, 59, 59);
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+.heading h1{
+    font-weight: 600;
+}
+
+.content{
+    width: 75%;
+    background-color: white;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+    padding: 2rem;
+}
+.content h4{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.content p{
+    font-size: 1.15rem;
+    font-weight: 450;
+    color: rgb(75, 75, 75);
+    margin-bottom: 1rem;
+}
+.content-h2{
+    border-left: 8px solid rgb(176, 2, 80);
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.iframes{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+.iframes .card{
+    background-color: white;
+    padding: 0.75rem;
+    border: 0.75px solid rgb(240, 240, 240);
+    border-radius: 6px ;
+}
+.iframes .card p{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+.blue{
+    background-color: rgb(33,174,230);
+    padding: 1.2rem;
+    line-height: 2rem;
+}
+.three-color{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: -0.6rem;
+
+}
+.three-color p{
+    text-align: center;
+    padding:  1rem 0.5rem;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 700;
+}
+
+.three-sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.three-sections .subsec{
+    padding: 0.5rem;
+} 
+.three-sections p{
+    font-size: 1rem;
+    word-spacing: 4px;
+    margin-top: 0.5rem;
+}
+.three-sections h3{
+    margin-top: 0;
+}
+.community .yt-video{
+    display: flex;
+    justify-content: center;
+}
+.community p{
+    margin-top: 1rem;
+}
+.covid-images{
+    display: flex;
+    justify-content: center;
+}
+
+.covid-images img{
+    width: 580px;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.inner-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .imp-links{
+    width: 75%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;;
+    padding-left: 0.5rem;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.9rem;
+}
+.footer .imp-links a{
+    color: white;
+}
+
+.serving{
+    padding-left: 0.5rem;
+    width: 75%;
+    border-top: 0.5px solid rgb(135, 135, 135);
+    border-bottom: 0.5px solid rgb(135, 135, 135);
+    padding-bottom: 1rem;
+}
+.serving h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.countries p{
+    font-size: 0.9rem;
+    color: rgb(179, 179, 179);
+    font-weight: 400;
+    cursor: pointer;
+}
+.countries p:hover{
+    color: rgb(255, 255, 255);
+}
+
+.footer-links{
+    display: flex;
+    width: 75%;
+    padding: 1rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links img{
+    width: 150px;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.social-icons img{
+    color: white;
+    width: 20px;
+    filter: invert(100%) brightness(100%);
+    cursor: pointer;
+}
