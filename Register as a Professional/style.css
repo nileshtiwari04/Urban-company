@@ -65,3 +65,53 @@ section{
     height: 80%;
     width: 100%;
 }
+.user-data{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+.container{
+    width: 80%;
+    height: 50vh;
+}
+.box1{
+    background-image: url(./Assets/people.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box2{
+    background-image: url(./Assets/cost.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box3{
+    background-image: url(./Assets/happy.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+h3{
+    text-align: center;
+    color: #018b2e;
+    font-size: 2rem;
+}
+.box{
+    height: 20vh;
+}
+.container>p{
+    margin-top: 5vh;
+}
+h2{
+    margin-top: 5vh;
+}
