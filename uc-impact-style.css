@@ -227,7 +227,6 @@ nav .nav-button p:hover{
     gap: 0.5rem;
 }
 .social-icons img{
-    color: white;
     width: 20px;
     filter: invert(100%) brightness(100%);
     cursor: pointer;
