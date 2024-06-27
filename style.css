@@ -136,6 +136,7 @@
             .three{
               display: flex;
               flex-wrap: wrap;
+             
             }
             .two{
               display: flex;
@@ -222,6 +223,7 @@
               flex-direction: column;
           }
           .cards{
+            /* position: absolute; */
             padding: 10px 20px;
             margin: auto;
             display: flex;
@@ -229,6 +231,7 @@
             gap: 6rem;
             margin-left: 12%;
             margin-top: 3%;
+            margin-right: 12%;
           }
           .cards{
             img{
@@ -241,12 +244,16 @@
           }
           .card{
             position: relative;
+            overflow: hidden;
+            border-radius: 15px; 
+            transition: border-radius 0.3s;
           }
-          .card:hover{  
+          .card>img:hover{  
 
             overflow: hidden;
-           transform: scale(1.2);
-            transition: transform 0.8s;
+            transform: scale(1.1);
+            transition: transform 0.6s;
+            border-radius: 15%;
           }
           .new{
             padding: 10px 20px;
@@ -256,43 +263,65 @@
             gap: 2rem;
             margin-left: 12%;
             margin-right: 12%;
+            
            
            
+          }
+          .new1{
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px; 
+            transition: border-radius 0.3s;
           }
           .new{
             img{
               background-position: center;
               background-size: cover;
               object-fit: cover;
+              overflow: hidden;
               border-radius: 10px;
+              margin-bottom: 10px;
             }
           }
           .h1c{
             margin-top: 5%;
             margin-left: 12%;
           }
-          .new1:hover{  
+          .new1>img:hover{  
             overflow: hidden;
            transform: scale(1.1);
             transition: transform 0.5s;
           }
-          .new2:hover{  
+          .most-booked-services>h2{ 
+            margin-left: 12%;
+          }
+          .servicesdown {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 30px;
+            margin-left: 12%;
+            margin-right: 12%;
+          }
+          .serviced{
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px; 
+            transition: border-radius 0.3s;
+          }
+          .servicesdown{
+            img{
+              background-position: center;
+              background-size: cover;
+              object-fit: cover;
+              overflow: hidden;
+              border-radius: 10px;
+              margin-bottom: 10px;
+            }
+          }
+          .serviced>img:hover{  
             overflow: hidden;
            transform: scale(1.1);
             transition: transform 0.5s;
           }
-          .new3:hover{  
-            overflow: hidden;
-           transform: scale(1.1);
-            transition: transform 0.5s;
-          }
-          .new4:hover{  
-            overflow: hidden;
-           transform: scale(1.1);
-            transition: transform 0.5s;
-          }
-          .new5:hover{  
-            overflow: hidden;
-           transform: scale(1.1);
-            transition: transform 0.5s;
-          }
+  
