@@ -231,3 +231,91 @@ nav .nav-button p:hover{
     filter: invert(100%) brightness(100%);
     cursor: pointer;
 }
+
+
+
+@media only screen and (max-width: 769px) {
+    .nav-items{
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+        gap: 5rem;
+    }
+    .heading{
+        width: 100%;
+    }
+    .iframes{
+        flex-wrap: wrap;
+    }
+    .community img{
+        width: 100%;
+    }
+    .iframes .card iframe{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        margin: 0;
+        padding: 0.5rem;
+        margin: auto;
+    }
+    .footer-links{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .covid{
+        width: 100%;
+    }
+    .three-color{
+        width: 100%;
+    }
+    .three-sections{
+        width: 100%;
+    }
+    
+  }
+  @media only screen and (min-width: 430px) and (max-width: 600px) {
+    .nav-items{
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+        gap: 1rem;
+    }
+    .nav-items .logo img {
+        width: 66px;
+        height: 18px;
+    }
+    nav .nav-button{
+        gap: 0.5rem;
+    }
+    nav .nav-button p{
+        font-size: 0.7rem;
+    }
+  }
+  @media only screen and (max-width: 430px){
+    nav .nav-button{
+        display: none;
+    }
+    .nav-items{
+        justify-content: space-between;
+        margin-left: 25%;
+    }
+    nav .menu{
+        position: fixed;
+        right: 1rem;
+    }
+    section{
+        width: 90%;
+        margin: auto;
+    }
+    .covid{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 430px) {
+    nav .menu{
+        display: none;
+    }
+}
