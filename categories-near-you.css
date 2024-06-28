@@ -126,7 +126,7 @@ header .head img {
   gap: 5%;
   margin: 2rem auto;
 }
-.elec-plum{
+.elec-plum, .extra{
   width: 80%;
   display: flex;
   justify-content: center;
@@ -176,7 +176,7 @@ header .head img {
     align-items: center;
     padding-top: 0;
   }
-  .elec-plum{
+  .elec-plum, .extra{
     margin: 0 auto;
     flex-direction: column;
     align-items: center;
@@ -218,7 +218,7 @@ header .head img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem auto;
+    margin: 2rem auto;
     padding: 0;
     flex-direction: row;
     gap: 5%;
@@ -228,17 +228,17 @@ header .head img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem auto;
+    margin: 2rem auto;
     padding: 0;
     flex-direction: row;
     gap: 5%;
   }
-  .elec-plum{
+  .elec-plum, .extra{
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem auto;
+    margin: 2rem auto;
     padding: 0;
     flex-direction: row;
     gap: 5%;
@@ -274,7 +274,7 @@ header .head img {
       display: flex;
       justify-content: center;
       align-items: flex-start;
-      margin: 7rem auto;
+      margin: 5rem auto;
       padding: 0;
       flex-direction: row;
   }
@@ -283,16 +283,16 @@ header .head img {
       display: flex;
       justify-content: center;
       align-items: flex-start;
-      margin: 7rem auto;
+      margin: 5rem auto;
       padding: 0;
       flex-direction: row;
   }
-  .elec-plum{
+  .elec-plum, .extra{
       width: 80%;
       display: flex;
       justify-content: center;
       align-items: flex-start;
-      margin: 7rem auto;
+      margin: 5rem auto;
       padding: 0;
       flex-direction: row;
   }
