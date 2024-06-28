@@ -82,15 +82,19 @@ header .head img {
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .three>.spa>img {
   background-color: rgb(245, 245, 245);
   padding: 2rem;
   border-radius: 0.3rem;
-  width: 100%;
+  width: 70%;
   height: auto;
+  margin-bottom: 0.5rem;
+}
+.three>.spa p{
+  text-align: center;
 }
 
 .three>.spa>span {
@@ -121,6 +125,17 @@ header .head img {
   align-items: flex-start;
   gap: 5%;
   margin: 2rem auto;
+}
+.elec-plum{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5%;
+  margin: 2rem auto;
+}
+.elec-plum p{
+  font-size: 0.8rem;
 }
 .salon p{
   font-size: 0.8rem;
@@ -156,6 +171,12 @@ header .head img {
     padding-top: 0;
   }
   .salon{
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+  }
+  .elec-plum{
     margin: 0 auto;
     flex-direction: column;
     align-items: center;
@@ -212,6 +233,16 @@ header .head img {
     flex-direction: row;
     gap: 5%;
   }
+  .elec-plum{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    padding: 0;
+    flex-direction: row;
+    gap: 5%;
+  }
 
   .left {
       margin-top: 1rem;
@@ -248,6 +279,15 @@ header .head img {
       flex-direction: row;
   }
   .salon{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 7rem auto;
+      padding: 0;
+      flex-direction: row;
+  }
+  .elec-plum{
       width: 80%;
       display: flex;
       justify-content: center;
