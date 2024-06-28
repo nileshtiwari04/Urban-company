@@ -134,6 +134,30 @@ header .head img {
   gap: 5%;
   margin: 2rem auto;
 }
+.recently-booked{
+  width: 80%;
+  margin: auto;
+}
+.recently-booked .spa{
+  width: 10%; 
+  margin-left: 2rem;
+}
+.main-contain{
+  display: flex;
+  flex-direction: column;
+}
+.recently-booked p{
+  font-size: 0.8rem;
+}
+
+.text{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
 .elec-plum,.extra p{
   font-size: 0.8rem;
 }
@@ -182,7 +206,10 @@ header .head img {
     align-items: center;
     padding-top: 0;
   }
-
+  .recently-booked .spa{
+    width: 30%; 
+    margin-left: 2rem;
+  }
   .left {
       width: 100%;
       padding: 0 1rem;
@@ -242,6 +269,11 @@ header .head img {
     padding: 0;
     flex-direction: row;
     gap: 5%;
+  }
+
+  .recently-booked .spa{
+    width: 20%; 
+    margin-left: 2rem;
   }
 
   .left {
