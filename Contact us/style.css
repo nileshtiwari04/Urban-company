@@ -54,6 +54,7 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     width: 36%;
+    max-height: 600px;
 }
 .box{
     border: 1px solid gray;
