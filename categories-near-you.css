@@ -134,7 +134,7 @@ header .head img {
   gap: 5%;
   margin: 2rem auto;
 }
-.elec-plum p{
+.elec-plum,.extra p{
   font-size: 0.8rem;
 }
 .salon p{
