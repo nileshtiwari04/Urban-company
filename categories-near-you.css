@@ -18,7 +18,7 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  border-bottom: 1px solid rgb(129, 129, 129);
+  border-bottom: 0.5px solid rgb(206, 206, 206);
   z-index: 1000;
 }
 
@@ -49,22 +49,29 @@ header .head img {
   display: flex;
   flex-direction: column;
 }
+.right{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .services {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border: 1.5px solid #ddd;
   border-radius: 10px;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .three {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 1rem;
 }
 
@@ -75,11 +82,12 @@ header .head img {
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .three>.spa>img {
   background-color: rgb(245, 245, 245);
-  padding: 1.3rem;
+  padding: 2rem;
   border-radius: 0.3rem;
   width: 100%;
   height: auto;
@@ -92,10 +100,24 @@ header .head img {
   margin-top: 0.5rem;
 }
 
-.right img {
+.main .right img {
   width: 100%;
   height: auto;
+  margin-top: 5rem;
 }
+
+.main-explore{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10%;
+  margin: auto;
+}
+.main-explore p{
+  font-size: 0.8rem;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -104,6 +126,12 @@ header .head img {
       flex-direction: column;
       align-items: center;
       padding-top: 0;
+  }
+  .main-explore{
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
   }
 
   .left {
@@ -136,6 +164,16 @@ header .head img {
       flex-direction: row;
       gap: 5%;
   }
+  .main-explore{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    padding: 0;
+    flex-direction: row;
+    gap: 5%;
+  }
 
   .left {
       margin-top: 1rem;
@@ -155,6 +193,15 @@ header .head img {
 @media (min-width: 1501px) {
   .main {
       width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 7rem auto;
+      padding: 0;
+      flex-direction: row;
+  }
+  .main-explore{
+    width: 80%;
       display: flex;
       justify-content: center;
       align-items: flex-start;
