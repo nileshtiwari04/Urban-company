@@ -1,7 +1,7 @@
 
 # URBAN-COMPANY Website [URBAN-COMPANY Website](https://urban-company-zeta.vercel.app/)
 
-Welcome to URBAN-COMPANY, urban company is a service marketplace that connects customers with professionals offering various services such as home cleaning, beauty, plumbing, and more.
+Welcome to URBAN-COMPANY, urban company is a service marketplace that connects customers with professionals offering various services such as home cleaning, beauty, plumbing, and more .
 
 
 ## Table of Contents
