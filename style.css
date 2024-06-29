@@ -1,9 +1,16 @@
+            *{
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+              /* overflow-x: hidden; */
+            }
             /* General Styles */
             body {
               font-family: Arial, sans-serif;
               margin: 0;
               padding: 0;
-              /* box-sizing: border-box; */
+              box-sizing: border-box; 
+              
           }
           
           /* Header Styles */
@@ -11,6 +18,7 @@
               background-color: #fff;
               padding: 10px 20px;
               box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+             
           }
           
           .container {
@@ -181,6 +189,7 @@
             }
             .icons{
               display: flex;
+              padding: 2rem;
               gap: 15rem;
               margin-top: 25px;
             }
@@ -288,7 +297,7 @@
            transform: scale(1.1);
             transition: transform 0.5s;
           }
-          .most-booked-services>h2{ 
+          .most-booked-services>h1{ 
             margin-left: 12%;
             margin-top: 7%;
           }
@@ -720,52 +729,153 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
   
-  @media only screen and (max-width: 766px) {
+@media only screen and (max-width: 766px) {
     /* Styles for mobile screens */
-    .home{
-      flex-direction: column;
-      margin: auto;
-      
-} 
-.left{
-  margin: auto;
-  width: 90%;
-}
-.right{
-  margin: auto;
-  width: 73%;
-  height: auto;
-}
-.icons{
-  justify-content: center;
-  gap: 2rem;
-}
-.services{
-  justify-content: center;
-  text-align: center;
-}
-.three{
-justify-content: center;
-}
-.services-grid{
-display: flex;
-flex-wrap: wrap;
-}
-.footer{
+  .header{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  .home{
+    flex-direction: column;
+    margin: auto;
+    } 
+  .left{
+    margin: auto;
+    width: 90%;
+    padding: 0;
+    }
+  .three>.spa{
+      width: 60%;
+  }
+  .three>.spa>img{
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .three>.spa>span{
+    width: 100%;
+    font-size: 1rem;
+  }
+  .two1{
+    justify-content: center;
+    align-items: center;
+  }
+  .right{
+    margin: auto;
+    width: 73%;
+    height: auto;
+    padding: 0;
+  }
+  .explorenow{
+    width: 90%;
+  }
+  .cards{
+    margin:  1rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 1rem;
+  }
+  .card{
+    width: 100%;
+  }
+  .new{
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  .servicesdown{
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+  .serviced{
+    margin: 1rem 0;
+  }
+  .see-all{
+    display: none;
+  }
+  .service-card{
+    margin: 1rem 0;
+  }
+  .services-container2{
+    padding: 0;
+  }
+  .services-grid2{
+    display: flex;
+    flex-direction: column;
+  }
+  .services-grid3{
+    justify-content: center;
+    align-items: center;
+  }
 
-width: 100%;
-}
-.links{
-  flex-direction: column;
-}
-.two1{
-  /* flex-direction: column; */
+  .location{
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
+  .login{
+    display: none;
+  }
+  .container{
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icons{
+    justify-content: center;
+    gap: 2rem;
+  }
+  .services{
+    justify-content: center;
+    text-align: center;
+  }
+  .three{
+  justify-content: center;
+  align-items: center;
+  }
+  .services-grid{
   display: flex;
   flex-wrap: wrap;
-}
+  }
+  .footer{
+
+  width: 100%;
+  }
+  .links{
+    flex-direction: column;
+  }
+  .two1{
+    /* flex-direction: column; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .most-booked-services>h1{
+    margin: 1rem;
+    text-align: center;
+  }
+  .h1c{
+    margin-left: 1rem;
+  }
+  .header>.container>.material-symbols-outlined{
+    margin-right: 1.5rem;
+    font-size: 4rem;
+  }
 }
 @media only screen and (min-width: 767px) and (max-width: 1500px) {
   /* Styles for tablet screens */
+  .header>.container>.material-symbols-outlined{
+    display: none;
+  }
+  .header{
+    width: 100%;
+    padding: 0;
+  }
+  .container{
+    padding: 0.5rem;
+  }
   .home{
         flex-direction: column;
         margin: auto;
@@ -774,11 +884,13 @@ width: 100%;
   .left{
     margin: auto;
     width: 90%;
+    padding: 1rem;
   }
   .right{
     margin: auto;
     width: 73%;
     height: auto;
+    padding: 1rem;
   }
   .icons{
     justify-content: center;
