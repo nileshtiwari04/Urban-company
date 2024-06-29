@@ -926,4 +926,10 @@
 }
 
 }
+@media (min-width: 1500px) {
+  .header>.container>.material-symbols-outlined{
+    display: none;
+  }
+ 
+}
 
