@@ -16,8 +16,8 @@ Welcome to URBAN-COMPANY, urban company is a service marketplace that connects c
  - [Blog](./Urban-company/blog.html)
  - [Contact Us](./Contact%20us/index.html)
   - [Register as a Professional](./Register%20as%20a%20Professional/index.html)
-
-
+  - [Register and Login](./login.html)
+   - [Help & Support](./help.html)
 ## Home
 Discover the essence of  URBAN-COMPANY right from the homepage. Get a glimpse of what we offer and explore further to find your favorites.
 
@@ -54,4 +54,5 @@ Hosted Link: [URBAN-COMPANY Website](https://urban-company-zeta.vercel.app/)
 
 
 ## 
-Thank you for visiting  URBAN-COMPANY online. We look forward to serving you soon!
+Thank you All Team and Mentor For helping and Supporting 
+
