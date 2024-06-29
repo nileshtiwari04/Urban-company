@@ -7,15 +7,15 @@ Welcome to URBAN-COMPANY, urban company is a service marketplace that connects c
 ## Table of Contents
 
  - [Home](index.html)
- - [About Us](./about%20us/index.htmlgit)
+ - [About Us](about-us/index.html)
  - [Terms & Conditions](Urban-company/terms&conditions.html)
  - [Privacy Policy](privacy-policy/index.html)
  - [Anti discrimination Policy](antiDP.html)
  - [UC Impact](UC-Impact.html)
  - [Categories Near You](categories-near-you.html)
  - [Blog](Urban-company/blog.html)
- - [Contact Us](./Contact%20us/index.html)
-  - [Register as a Professional](./Register%20as%20a%20Professional/index.html)
+ - [Contact Us](Contact-us/index.html)
+  - [Register as a Professional](Register-as-a-Professional/index.html)
 
 
 ## Home
@@ -54,8 +54,4 @@ Hosted Link: [URBAN-COMPANY Website](https://urban-company-zeta.vercel.app/)
 
 
 ## 
-<<<<<<< HEAD
-Thank you All Team Members And Mentor for creating this amazing webpages 
-=======
 Thank you for visiting  URBAN-COMPANY online. We look forward to serving you soon!
->>>>>>> 7f02f1cd97064565cc944863c71f037fec89c32a
