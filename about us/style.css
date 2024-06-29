@@ -1,0 +1,477 @@
+.body {
+    background-color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    border-left: 0cap;
+    border-top: 0cap;
+    border-right: 0cap;
+    background-color: white;
+    border-bottom: 1px solid #eee
+}
+
+.navbar ul {
+    overflow: auto;
+    padding-left: 550px;
+    padding-right: 0px;
+    flex-direction: flex-end;
+    font-size: 15px;
+}
+
+.navbar li {
+    float: left;
+    text-align: center;
+    list-style: none;
+    margin: 7px 10px;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.navbar li a:hover {
+    color: black;
+}
+
+.logo img {
+    width: 132px;
+    height: 39px;
+    padding: 10px;
+}
+
+.main .about-us {
+    margin: 0;
+    padding: 32px 24px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .main .about-us {
+        padding: 24px 16px;
+        border-bottom: 0px solid #eee;
+    }
+}
+
+.main .about-us>h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #424242;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .about-us>h1 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+.main .body-page {
+    color: #424242;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 32px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    width: 1136px;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .body-page {
+        width: 100%;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        padding: 24px 16px;
+        text-align: center;
+    }
+}
+
+.main .body-page .who-we-are {
+    margin-bottom: 48px;
+}
+
+.main .body-page .who-we-are a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.main .body-page .who-we-are .Investors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 15px;
+    grid-gap: 15px 17px;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .main .body-page .who-we-are .Investors {
+        grid-template-columns: auto
+    }
+}
+
+.main .body-page .who-we-are .Investors .investers-logo {
+    text-align: center;
+}
+
+.main .body-page .who-we-are>h2 {
+    margin: 0 0 12px 0;
+    text-align: CENTER;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    color: #222;
+}
+
+@media only screen and (max-width: 768px) {
+    .main.body-page .who-we-are>h2 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+.main {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    position: relative;
+    background-color: #f7f8fa;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        margin: 0;
+        padding-top: 52px;
+    }
+}
+
+.main h2 {
+    margin: 0 0 12px 0;
+    text-align: CENTER;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    color: #222;
+}
+
+@media only screen and (max-width: 768px) {
+    .main h2 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+.main .body-page .who-we-are p {
+    margin: 24px 0 8px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #555;
+}
+
+.main ul {
+    padding-left: 24px;
+}
+
+.main ul li {
+    list-style: disc;
+}
+
+.main .body-page {
+    color: #424242;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 32px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    width: 1136px;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .body-page {
+        width: 100%;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        padding: 24px 16px;
+        text-align: center;
+    }
+}
+
+.main .body-page .who-we-are .investor-image {
+    margin-top: 50px;
+}
+
+.main .body-page .who-we-are .section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .body-page .who-we-are .section-1 {
+        padding: 0;
+        flex-direction: column;
+    }
+}
+
+.main .body-page .who-we-are .section-1 .customer-update {
+    flex-basis: 31%;
+}
+
+.main .body-page .who-we-are .section-1 .customer-update .total {
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    direction: ltr;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .body-page .who-we-are .section-1 .customer-update .total {
+        font-size: 32px;
+    }
+}
+
+.main .body-page .who-we-are .section-1 .customer-update .happy-customer {
+    color: #757575;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .body-page .who-we-are .section-1 .customer-update .happy-customer {
+        margin-top: 0;
+    }
+}
+
+.main .body-page .who-we-are .team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .body-page .who-we-are .team {
+        padding: 0;
+        flex-direction: column;
+    }
+}
+.main .body-page .who-we-are .team{
+    align-items: stretch:
+}
+
+.main .body-page .who-we-are .team .team-member {
+    text-align: center;
+    border-radius: 4px;
+    background: #f4f4f4;
+    padding: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .body-page .who-we-are .team .team-member {
+        margin-bottom: 12px;
+    }
+}
+
+.main .body-page .who-we-are .team .team-member .team-member-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.main .body-page .who-we-are .team .team-member .team-member-photo>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.main .body-page .who-we-are .team .team-member .member-name {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main .body-page .who-we-are .team .team-member .member-name>a {
+    margin-left: 8px;
+}
+
+.body-page h2 {
+    margin: 0 0 12px 0;
+    text-align: CENTER;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    color: #222;
+}
+
+@media only screen and (max-width: 768px) {
+    .body-page h2 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+.main .body-page .who-we-are a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.main .body-page .who-we-are .team .team-member .member-designation {
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 24px;
+}
+
+.main .body-page .who-we-are .team .team-member .member-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main .body-page .who-we-are .team .team-member .member-social a {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-left: 16px;
+
+}
+
+.main .body-page .who-we-are .team .team-member .member-social a img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .body-page .who-we-are .team .team-member .about-member {
+    padding: 16px 0;
+    margin-top: 0;
+}
+
+.main ul {
+    padding-left: 24px;
+}
+
+.main ul li {
+    list-style: disc;
+}
+
+.main .body-page .who-we-are .investor {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 15px;
+    grid-gap: 15px 17px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .body-page .who-we-are .investor {
+        grid-template-columns: auto;
+    }
+}
+
+.main .body-page .who-we-are .investor .investor-logo {
+    text-align: center;
+}
+
+.main .body-page .who-we-are .investor .investor-logo>img {
+    max-width: 100%;
+}
+
+.main .body-page .who-we-are .investor-image .investor-details {
+    text-align: center;
+}
+
+.main .body-page .who-we-are .investor-image {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 15px;
+    grid-gap: 15px 17px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .body-page .who-we-are .investor-image {
+        grid-template-columns: auto;
+    }
+}
+
+.media-queries {
+    width: 1136px;
+    margin: 0 auto;
+    margin-top: 12px;
+    color: #757575;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.main .body-page .who-we-are .button {
+    text-align: center;
+}
+
+.main .body-page .who-we-are .button .apply-button {
+    padding: 12px 32px;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+.main .body-page .who-we-are .button .apply-button .apply-link {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main .body-page .who-we-are .button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.main .body-page .who-we-are .button .apply-button{
+    background-color: #090202;
+}
