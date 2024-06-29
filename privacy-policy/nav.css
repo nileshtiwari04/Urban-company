@@ -27,6 +27,7 @@ nav{
     display: block;
     line-height: 1;
     transition: 0.3s;
+    color: white;
 }
 
 .hamburger{
