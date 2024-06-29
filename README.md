@@ -6,16 +6,16 @@ Welcome to URBAN-COMPANY, urban company is a service marketplace that connects c
 
 ## Table of Contents
 
- - [Home](index.html)
- - [About Us](about-us/index.html)
- - [Terms & Conditions](Urban-company/terms&conditions.html)
- - [Privacy Policy](privacy-policy/index.html)
- - [Anti discrimination Policy](antiDP.html)
- - [UC Impact](UC-Impact.html)
- - [Categories Near You](categories-near-you.html)
- - [Blog](Urban-company/blog.html)
- - [Contact Us](Contact-us/index.html)
-  - [Register as a Professional](Register-as-a-Professional/index.html)
+ - [Home](./index.html)
+ - [About Us](./about%20us/index.html)
+ - [Terms & Conditions](./Urban-company/terms&conditions.html)
+ - [Privacy Policy](./antiDP.html)
+ - [Anti discrimination Policy](./antiDP.html)
+ - [UC Impact](./UC-Impact.html)
+ - [Categories Near You](./categories-near-you.html)
+ - [Blog](./Urban-company/blog.html)
+ - [Contact Us](./Contact%20us/index.html)
+  - [Register as a Professional](./Register%20as%20a%20Professional/index.html)
 
 
 ## Home
